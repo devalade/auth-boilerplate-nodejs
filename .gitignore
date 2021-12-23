@@ -2,3 +2,5 @@
 node_modules
 package-lock.json
 config.json
+id_rsa_priv.pem
+id_rsa_pub.pem
