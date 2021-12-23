@@ -4,7 +4,8 @@
   "description": "Boilerplate for auth system",
   "main": "server.js",
   "scripts": {
-    "serve": "nodemon serve.js"
+    "serve": "nodemon serve.js",
+    "keygen": "node generateKeyPair.js"
   },
   "author": "devalade",
   "license": "ISC",
@@ -24,6 +25,8 @@
     "passport-google-oauth20": "^2.0.0",
     "passport-jwt": "^4.0.0",
     "path": "^0.12.7",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
     "sequelize": "^6.6.5"
   }
 }
